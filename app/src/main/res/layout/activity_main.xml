@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ECFDADA"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#407EA6"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Deber volley"
+        android:textColor="#0C0C0C"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/borde"
+        android:ems="10"
+        android:hint="Nombres"
+        android:inputType="text"
+        android:paddingLeft="8dp"
+        android:text="carlos@gmail.com" />
+
+    <Button
+        android:id="@+id/btlog"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="338dp"
+        android:background="#E6F4D5"
+        android:onClick="BtIngresar"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/borde"
+        android:ems="10"
+        android:hint="Nombres"
+        android:inputType="numberPassword"
+        android:paddingLeft="8dp"
+        android:text="12345678" />
+
+
+    <TextView
+        android:id="@+id/txtMens"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="443dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center" />
+
+</RelativeLayout>
